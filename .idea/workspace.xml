@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962bf253-388b-4e88-8d92-661069d9c834" name="Changes" comment="Arquivos Adicionais">
-      <change afterPath="$PROJECT_DIR$/validacaoPesquisa/app/templates/carro_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validacaoPesquisa/app/urls.py" afterDir="false" />
+    <list default="true" id="962bf253-388b-4e88-8d92-661069d9c834" name="Changes" comment="Urls and carro_form.html created / urls.py, settings.py, models.py, views.py modified">
+      <change afterPath="$PROJECT_DIR$/validacaoPesquisa/app/templates/carro_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validacaoPesquisa/app/templates/carro_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validacaoPesquisa/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/validacaoPesquisa/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validacaoPesquisa/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/validacaoPesquisa/app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/validacaoPesquisa/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/validacaoPesquisa/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validacaoPesquisa/validacaoPesquisa/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/validacaoPesquisa/validacaoPesquisa/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,7 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
@@ -85,11 +85,31 @@
       <option name="project" value="LOCAL" />
       <updated>1755811678503</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Urls and carro_form.html created / urls.py, settings.py, models.py, views.py modified">
+      <option name="closed" value="true" />
+      <created>1755813342286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755813342286</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arquivos Adicionais" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arquivos Adicionais" />
+    <MESSAGE value="Urls and carro_form.html created / urls.py, settings.py, models.py, views.py modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Urls and carro_form.html created / urls.py, settings.py, models.py, views.py modified" />
   </component>
 </project>
