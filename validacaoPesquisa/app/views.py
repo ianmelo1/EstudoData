@@ -16,8 +16,12 @@ def cadastrar_carro(request, template_name='carro_form.html'):
         return redirect('carro_list')
     return render(request, template_name, {'form': form})
 
-def listar_carro(request, template_name='carro_list.html'):
-    carro = Carro.objects.all()
+def listar_carro(request, template_name="carro_list.html"):
+    query = request.GET.get("busca")
+    if query:
+        carro = Carro.objects.filter(modelo__icontains=query)
+    else:
+        carro = Carro.objects.all()
     carros = {'lista': carro}
     return render(request, template_name, carros)
 

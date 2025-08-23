@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962bf253-388b-4e88-8d92-661069d9c834" name="Changes" comment="carro_delete.html and">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validacaoPesquisa/app/templates/carro_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/validacaoPesquisa/app/templates/carro_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validacaoPesquisa/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/validacaoPesquisa/app/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="962bf253-388b-4e88-8d92-661069d9c834" name="Changes" comment="Função delete e alguns ajustes na rota &quot;home&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755906169892</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Função delete e alguns ajustes na rota &quot;home&quot;">
+      <option name="closed" value="true" />
+      <created>1755907236036</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755907236036</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +129,7 @@
     <MESSAGE value="Arquivos Adicionais" />
     <MESSAGE value="Urls and carro_form.html created / urls.py, settings.py, models.py, views.py modified" />
     <MESSAGE value="carro_delete.html and" />
-    <option name="LAST_COMMIT_MESSAGE" value="carro_delete.html and" />
+    <MESSAGE value="Função delete e alguns ajustes na rota &quot;home&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Função delete e alguns ajustes na rota &quot;home&quot;" />
   </component>
 </project>
