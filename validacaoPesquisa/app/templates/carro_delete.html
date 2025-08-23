@@ -5,12 +5,14 @@ Remoção de Carros
 {% endblock title %}
 
 {% block content %}
-<form method="post">{% csrf_token %}
-    <h4>Tem certeza que deseja excluir o veículo "{{ carro.modelo }}"?</h4>
-    <br/>
-<button type="submit" class="btn btn-primary">
-    Remover
-</button>
+
+<h5>Tem certeza que deseja excluir o veículo "{{ carro.modelo }}"?</h5>
+
+<form method="post" style="display:inline;">
+    {% csrf_token %}
+    <button type="submit" class="btn red">REMOVER</button>
 </form>
+
+<a href="{% url 'carro_list' %}" class="btn green">VOLTAR</a>
 
 {% endblock content %}
